@@ -25,6 +25,9 @@ function Homepg() {
         <h3 className="text-yellow-500 text-sm mb-1">{item.category}</h3>
         <h3 className="text-white font-bold mb-4">{item.name}</h3>
         <h3 className="text-white mb-4 font-bold"> Ksh {item.price}</h3>
+        <button className="ml-16 mb-2 inline-block  px-4 py-2 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700">
+              Place Order
+            </button>
     </div>
     </Link>
 
