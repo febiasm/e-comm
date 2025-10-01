@@ -1,7 +1,20 @@
 .App {
   text-align: center;
 }
+.coverimg {
+  height: 91vh;
+}
+.landingtxt {
+  font-family: 'Dancing Script', cursive;
 
+
+}
+.brandtxt{
+  font-family: 'Bodoni Moda', serif;
+
+
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
