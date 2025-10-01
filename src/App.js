@@ -5,6 +5,7 @@ import Homepg from "./components/Homepg";
 import Navbar from "./components/Navbar";
 import Productpg from "./components/Productpg";
 import Checkout from "./components/checkout";
+import Allproducts from "./components/Allproducts";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Landingpg />} />
           <Route path="/Home" element={<Homepg />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/Allproducts" element={<Allproducts />} />
         </Routes>
       </Router>
     </div>
