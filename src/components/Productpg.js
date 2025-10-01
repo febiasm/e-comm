@@ -20,7 +20,7 @@ function ProductPg() {
     <div className="bg-gray-900 min-h-screen p-4 sm:p-6">
       <div className="mt-12 p-4 sm:p-6 max-w-4xl mx-auto bg-gray-800 rounded-xl shadow-lg text-white">
 
-        {/* Header */}
+
         <h1 className="text-xl sm:text-2xl font-bold mb-6 flex items-center justify-center text-center">
           Product
           <img
@@ -30,12 +30,12 @@ function ProductPg() {
           />
         </h1>
 
-        {/* Responsive Table */}
+
         <div className="overflow-x-auto">
           <table className="w-full border border-gray-600 text-left text-sm sm:text-base">
             <thead className="bg-gray-700">
               <tr>
-                <th className="p-2 sm:p-3 border border-gray-600">E-commerce Firm</th>
+                <th className="p-2 sm:p-3 border border-gray-600">Firms</th>
                 <th className="p-2 sm:p-3 border border-gray-600">Icon</th>
                 <th className="p-2 sm:p-3 border border-gray-600">Name</th>
                 <th className="p-2 sm:p-3 border border-gray-600">Category</th>
@@ -64,7 +64,7 @@ function ProductPg() {
           </table>
         </div>
 
-        {/* Buttons */}
+
         <div className="mt-6 flex flex-col sm:flex-row justify-center items-center">
           <Link
             to="/home"
