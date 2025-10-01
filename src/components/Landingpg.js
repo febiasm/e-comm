@@ -17,10 +17,10 @@ function Landingpg() {
             Febias Luxury
           </h2>
 
-         
+        <div className="flex">
           <Link
             to="/Home"
-            className="mt-6 ml-10 sm:ml-64 inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold
+            className="mt-6 ml-10 sm:ml-52   inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold
                        bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600
                        text-gray-900 shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition"
           >
@@ -37,6 +37,26 @@ function Landingpg() {
               <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>
           </Link>
+          <Link
+            to="/Allproducts"
+            className="mt-6 ml-1 sm:ml-3 inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold
+                       bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600
+                       text-gray-900 shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition"
+          >
+            <span>View all products</span>
+            <svg
+              className="w-4 h-4 sm:w-5 sm:h-5 ml-2"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+            </svg>
+          </Link>
+        </div>
         </div>
       </div>
     </div>
